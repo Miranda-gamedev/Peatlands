@@ -23,4 +23,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Peatlands Terrain test.unity
     guid: 9ed7dbe5dbd5e844fba4d811c905eb14
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 5aff714d16cb276488ad8c4f8f8244a2, type: 2}
