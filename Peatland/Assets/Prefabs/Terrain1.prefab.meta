@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: b84d2010bd3bcbb49af9230478db782c
+<<<<<<<< HEAD:Peatland/Assets/Prefabs/Terrain1.prefab.meta
+guid: 6c76aaec8d66b6d459a04c93cb96e673
 PrefabImporter:
+========
+guid: e9cfb4dd1b0726e43815cb84fc0c394a
+NativeFormatImporter:
+>>>>>>>> parent of 45caa40 (build test):Peatland/Assets/Visual Scripts/Interactions.asset.meta
   externalObjects: {}
+  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
