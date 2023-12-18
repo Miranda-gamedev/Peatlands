@@ -9,10 +9,10 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: New Terrain Material
   m_Shader: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -20,6 +20,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_C5E3E723:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -55,6 +59,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _LightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -75,6 +83,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -92,6 +104,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -144,9 +160,10 @@ Material:
     - Boolean_35A71344: 0
     - Boolean_7A5F3F39: 0
     - Boolean_7AC8D832: 0
+    - PixelSnap: 0
     - Vector1_3402D67A: 1
     - Vector1_3655428E: 2
-    - Vector1_5B05FA1F: 0.3
+    - Vector1_5B05FA1F: 0
     - Vector1_6B67A8FF: -20
     - Vector1_7810F718: 1
     - Vector1_B6126E6E: 0
@@ -161,11 +178,12 @@ Material:
     - _ClearCoat: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 1
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _EnableExternalAlpha: 0
     - _EnableHeightBlend: 0
     - _EnableInstancedPerPixelNormal: 1
     - _EnvironmentReflections: 1
@@ -185,7 +203,7 @@ Material:
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
+    - _ReceiveShadows: 0
     - _SampleGI: 0
     - _Shininess: 0
     - _Smoothness: 0.5
@@ -206,9 +224,11 @@ Material:
     m_Colors:
     - Color_2B671050: {r: 1, g: 1, b: 1, a: 0}
     - Color_30A0CA2F: {r: 1, g: 1, b: 1, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7266059602426980962
