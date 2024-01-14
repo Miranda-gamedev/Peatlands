@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Part3Interactions
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":434.0,"y":167.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":33.0,"y":9.0},"guid":"78765274-96d5-40d5-a77e-a030e5ca47f7","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"9"},{"argumentCount":0,"defaultValues":{"name":{"$content":"PlayTransition","$type":"System.String"},"target":null},"position":{"x":327.0,"y":-12.0},"guid":"ea2958b4-fad0-4f1f-b980-2d81d90cf9ad","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"11"},{"chainable":false,"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":532.0,"y":6.0},"guid":"c299bc25-4f06-4655-93b0-5519d6fa078a","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"DoorTransition","$type":"System.String"}},"position":{"x":60.0,"y":174.0},"guid":"3cea0713-8a4e-4e3c-8d94-08efb2d36f35","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"ContinueButton2","$type":"System.String"},"object":null},"position":{"x":-189.0,"y":116.0},"guid":"eeb0f6e1-3cfd-4a92-9da2-076c83159c57","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"DoorScreen2","$type":"System.String"},"object":null},"position":{"x":327.0,"y":183.0},"guid":"d4b89a2f-b6fa-454f-ad7c-16e79b5f00c5","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"20"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"e9dad5dd-1135-4115-9e67-a4d997de4d16","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exit","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"5995f02f-e6eb-42ce-a38b-3fe93489dcab","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"148de509-b9cf-4bac-9405-47fc35ffb27a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"986e067d-5859-4bf6-b4e8-fe05c3359123","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"f6faa831-ebd5-4fc5-9ad4-af2c5b811c87","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-223.0,"yMin":-70.0,"xMax":773.0,"yMax":373.0},"label":"Level
+      ending button","comment":null,"color":{"r":1.0,"g":0.06981128,"b":0.07855584,"a":1.0},"guid":"80da0f03-6f06-4ada-a5f2-c2e46dd686cd","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

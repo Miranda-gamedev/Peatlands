@@ -9,6 +9,7 @@ TagManager:
   - SmallBranch
   - Anemone2
   - Fishfriends1
+  - IconTag
   layers:
   - Default
   - TransparentFX
