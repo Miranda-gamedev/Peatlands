@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6dacdc4705015c74f87d77d567d68430
+  - enabled: 1
     path: Assets/Scenes/PeatlandsLevel.unity
     guid: fe00b567d48b7ad489dae45671ade57e
   m_configObjects:
