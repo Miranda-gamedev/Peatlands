@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PeatlandsLevel.unity
     guid: fe00b567d48b7ad489dae45671ade57e
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 5509cb5f214a98a48b2aa9ac76d2531f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 5aff714d16cb276488ad8c4f8f8244a2, type: 2}
