@@ -11509,7 +11509,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &409629589
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11526,7 +11526,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &409629590
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11552,7 +11552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 576
+    x: 577
     y: 162
     width: 112.4
     height: 40
